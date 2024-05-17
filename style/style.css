@@ -1,12 +1,12 @@
-body {
+/* body {
     height: 100vh;
     background-color:aquamarine;
     position: relative;
-}
+} */
 
 footer{
     position: absolute;
-    /* height: 80px; */
+    height: 80px;
     background-color: black;
     bottom: 0;
     width: 100%;
@@ -15,4 +15,30 @@ footer{
 
 .bg-color {
     background-color: white;
+}
+
+main {
+    background-color: aquamarine;
+    padding: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+
+
+.quadrato {
+
+    width: 450px;
+    height: 450px;
+    border: 3px solid  salmon;
+    padding: ;
+}
+
+.quadratino {
+
+    height: 50px;
+    width: 50px;
+    border: 2px solid seagreen;
 }
