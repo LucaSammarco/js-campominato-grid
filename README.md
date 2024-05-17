@@ -13,3 +13,10 @@ Consigli del giorno:
 :party_wizard: Scriviamo prima cosa vogliamo fare passo passo in italiano, dividiamo il lavoro in micro problemi.
 Ad esempio: Di cosa ho bisogno per generare i numeri?
 Proviamo sempre prima con dei console.log() per capire se stiamo ricevendo i dati giusti. Le validazioni e i controlli possiamo farli anche in un secondo momento.
+
+        *   Human Coding
+            * Impostare HTML e css per la struttura che dovra essere gestita dal js
+            * Creare un event listener per il bottone di avvio e usare un ciclo per generare le caselle.
+            * aggiungere un event listener alle singole caselle che quando cliccate cambiano la classe
+            
+        
