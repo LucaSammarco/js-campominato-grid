@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+    background-color:aquamarine;
+    position: relative;
+}
+
+footer{
+    position: absolute;
+    /* height: 80px; */
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.bg-color {
+    background-color: white;
+}
