@@ -4,11 +4,12 @@ const squareElment = document.createElement("div")
 
 const myButton = document.querySelector("body > header > nav > div > div > div.pe-3 > button")
 
-myButton.addEventListener("click", function(gridGenerator));
+myButton.addEventListener("click", gridGenerator);
     
-    function gridGenerator() {
-        for (let index = 1; index <= 100; index++) {
-        
+function gridGenerator() {
+
+    for (let index = 1; index <= 100; index++) {
+
             const squareElment = document.createElement("div");
             squareElment.classList.add("quadratino");
     
