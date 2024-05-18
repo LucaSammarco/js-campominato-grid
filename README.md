@@ -17,6 +17,6 @@ Proviamo sempre prima con dei console.log() per capire se stiamo ricevendo i dat
         *   Human Coding
             * Impostare HTML e css per la struttura che dovra essere gestita dal js
             * Creare un event listener per il bottone di avvio e usare un ciclo per generare le caselle.
-            * aggiungere un event listener alle singole caselle che quando cliccate cambiano la classe
+            * aggiungere un event listener alle singole caselle che quando cliccate cambiano la classe e loggano il contento della casella.
             
         

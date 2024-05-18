@@ -51,9 +51,22 @@ main {
     height: calc((100% / 10) );
     border: 2px solid black;
     background-color: aquamarine;
-    /* display: none; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: none;
 }
 
 .active {
     background-color: red;
+   
+    color: white;
+   
+}
+
+#myGrid > div.active > span {
+    display: block;
 }
