@@ -8,9 +8,11 @@ myButton.addEventListener("click", gridGenerator);
     
 function gridGenerator() {
 
+    gridElement.innerHTML = '';
+
     for (let index = 1; index <= 100; index++) {
 
-        gridElement.innerHTML = '';
+        
 
             const squareElment = document.createElement("div");
             squareElment.classList.add("quadratino");
