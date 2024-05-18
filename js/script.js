@@ -1,10 +1,10 @@
-// const gridElement = document.querySelector ("section#grid")
+const gridElement = document.querySelector("#myGrid")
 
-// const squareElment = document.createElement("article")
+const squareElment = document.createElement("div")
 
-//     for (let index = 0; index < 64; index++) {
-//         const element = array[index];
-//         const squareElment = document.createElement("article");
-//         squareElment.classList.add("square");
-//         gridElement.appendChild(squareElment);
-//     }
+    for (let index = 0; index < 100; index++) {
+        
+        const squareElment = document.createElement("div");
+        squareElment.classList.add("quadratino");
+        gridElement.appendChild(squareElment);
+    }
