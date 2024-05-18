@@ -6,5 +6,10 @@ const squareElment = document.createElement("div")
         
         const squareElment = document.createElement("div");
         squareElment.classList.add("quadratino");
+        squareElment.addEventListener("click", function () {
+            squareElment.classList.add("active")
+        });
+
+        
         gridElement.appendChild(squareElment);
     }
